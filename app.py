@@ -34,4 +34,4 @@ label = gr.outputs.Label()
 examples = ['dog.jpg','cat.jpg','dunno.jpg']
 
 intf = gr.Interface(fn = classify_image, inputs = image, outputs = label, examples = examples)
-intf.launch(inline = False, share = True, debug = True)
+intf.launch(inline = False, debug = True)
